@@ -4,14 +4,12 @@
  * */
 package ku.cs.kafe.repository;
 
-import ku.cs.kafe.entity.Member;
+import ku.cs.kafe.entity.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
 import java.util.UUID;
 
 @Repository
-public interface MemberRepository extends JpaRepository<Member, UUID> {
-    Member findByUsername(String username);
+public interface CategoryRepository extends JpaRepository<Category, UUID> {
+    Category findByName(String name);
 }
-

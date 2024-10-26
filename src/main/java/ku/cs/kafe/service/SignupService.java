@@ -1,5 +1,8 @@
+/**
+ * StudentId: 6510450861
+ * Name: Moradop Hengprasert
+ * */
 package ku.cs.kafe.service;
-
 
 import ku.cs.kafe.entity.Member;
 import ku.cs.kafe.request.SignupRequest;
@@ -8,7 +11,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 
 @Service
 public class SignupService {
